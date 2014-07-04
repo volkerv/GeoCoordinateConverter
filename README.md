@@ -24,7 +24,7 @@ You use the functionality through the GeoCoordinateConverter class which provide
 
 `- (void) utm:(NSString*) UTM ToLatitude:(double*) outLatitude Longitude:(double *) outLongitude;`  
 `- (NSString *) utmFromLatitude:(double) latitude Longitude:(double) longitude;`  
-`- (void) mgrs:(NSString*) MGRS ToLatitude:(double*) outLatitude Longitude:(double *) outLongitude;` 
+`- (void) mgrs:(NSString*) MGRS ToLatitude:(double*) outLatitude Longitude:(double *) outLongitude;`  
 `- (NSString *) mgrsFromLatitude:(double) latitude Longitude:(double) longitude;` 
 
 e.g.:
