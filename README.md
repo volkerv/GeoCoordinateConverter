@@ -10,11 +10,11 @@ Supported representations:
 * UTM
 * MGRS
 
-<br/><br/>  
+<br/>  
 
   
-iOS
-===
+##iOS
+
 
 #### How to include it?
 Copy the `GeoCoordinateConverter` folder into your project and drag the files right into your application. 
