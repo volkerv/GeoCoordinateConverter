@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F5D1BD9196050FC00E9ABBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F5D1BD8196050FC00E9ABBC /* Foundation.framework */; };
+		9F5D1BDE196050FC00E9ABBC /* GeoCoordinateConverter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9F5D1BDD196050FC00E9ABBC /* GeoCoordinateConverter.h */; };
+		9F5D1BE0196050FC00E9ABBC /* GeoCoordinateConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5D1BDF196050FC00E9ABBC /* GeoCoordinateConverter.m */; };
+		9F5D1BE7196050FD00E9ABBC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F5D1BE6196050FD00E9ABBC /* XCTest.framework */; };
+		9F5D1BE8196050FD00E9ABBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F5D1BD8196050FC00E9ABBC /* Foundation.framework */; };
+		9F5D1BEA196050FD00E9ABBC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F5D1BE9196050FD00E9ABBC /* UIKit.framework */; };
+		9F5D1BED196050FD00E9ABBC /* libGeoCoordinateConverter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F5D1BD5196050FC00E9ABBC /* libGeoCoordinateConverter.a */; };
+		9F5D1BF3196050FD00E9ABBC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F5D1BF1196050FD00E9ABBC /* InfoPlist.strings */; };
+		9F5D1BF5196050FD00E9ABBC /* GeoCoordinateConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5D1BF4196050FD00E9ABBC /* GeoCoordinateConverterTests.m */; };
+		9F5D1C0C196142A200E9ABBC /* LatLon2MGRS.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5D1C03196142A200E9ABBC /* LatLon2MGRS.m */; };
+		9F5D1C0D196142A200E9ABBC /* LatLon2UTM.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5D1C05196142A200E9ABBC /* LatLon2UTM.m */; };
+		9F5D1C0E196142A200E9ABBC /* MGRS2LatLon.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5D1C07196142A200E9ABBC /* MGRS2LatLon.m */; };
+		9F5D1C0F196142A200E9ABBC /* UTM2LatLon.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5D1C09196142A200E9ABBC /* UTM2LatLon.m */; };
+		9F5D1C1219614C5500E9ABBC /* TestData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5D1C1119614C5500E9ABBC /* TestData.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F5D1BEB196050FD00E9ABBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F5D1BCD196050FC00E9ABBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F5D1BD4196050FC00E9ABBC;
+			remoteInfo = GeoCoordinateConverter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9F5D1BD3196050FC00E9ABBC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				9F5D1BDE196050FC00E9ABBC /* GeoCoordinateConverter.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9F5D1BD5196050FC00E9ABBC /* libGeoCoordinateConverter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGeoCoordinateConverter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F5D1BD8196050FC00E9ABBC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9F5D1BDC196050FC00E9ABBC /* GeoCoordinateConverter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GeoCoordinateConverter-Prefix.pch"; sourceTree = "<group>"; };
+		9F5D1BDD196050FC00E9ABBC /* GeoCoordinateConverter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeoCoordinateConverter.h; sourceTree = "<group>"; };
+		9F5D1BDF196050FC00E9ABBC /* GeoCoordinateConverter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeoCoordinateConverter.m; sourceTree = "<group>"; };
+		9F5D1BE5196050FD00E9ABBC /* GeoCoordinateConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoCoordinateConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F5D1BE6196050FD00E9ABBC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9F5D1BE9196050FD00E9ABBC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		9F5D1BF0196050FD00E9ABBC /* GeoCoordinateConverterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeoCoordinateConverterTests-Info.plist"; sourceTree = "<group>"; };
+		9F5D1BF2196050FD00E9ABBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9F5D1BF4196050FD00E9ABBC /* GeoCoordinateConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeoCoordinateConverterTests.m; sourceTree = "<group>"; };
+		9F5D1C02196142A200E9ABBC /* LatLon2MGRS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LatLon2MGRS.h; sourceTree = "<group>"; };
+		9F5D1C03196142A200E9ABBC /* LatLon2MGRS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LatLon2MGRS.m; sourceTree = "<group>"; };
+		9F5D1C04196142A200E9ABBC /* LatLon2UTM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LatLon2UTM.h; sourceTree = "<group>"; };
+		9F5D1C05196142A200E9ABBC /* LatLon2UTM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LatLon2UTM.m; sourceTree = "<group>"; };
+		9F5D1C06196142A200E9ABBC /* MGRS2LatLon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGRS2LatLon.h; sourceTree = "<group>"; };
+		9F5D1C07196142A200E9ABBC /* MGRS2LatLon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGRS2LatLon.m; sourceTree = "<group>"; };
+		9F5D1C08196142A200E9ABBC /* UTM2LatLon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTM2LatLon.h; sourceTree = "<group>"; };
+		9F5D1C09196142A200E9ABBC /* UTM2LatLon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTM2LatLon.m; sourceTree = "<group>"; };
+		9F5D1C1019614C5500E9ABBC /* TestData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestData.h; sourceTree = "<group>"; };
+		9F5D1C1119614C5500E9ABBC /* TestData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestData.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F5D1BD2196050FC00E9ABBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F5D1BD9196050FC00E9ABBC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F5D1BE2196050FD00E9ABBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F5D1BED196050FD00E9ABBC /* libGeoCoordinateConverter.a in Frameworks */,
+				9F5D1BE7196050FD00E9ABBC /* XCTest.framework in Frameworks */,
+				9F5D1BEA196050FD00E9ABBC /* UIKit.framework in Frameworks */,
+				9F5D1BE8196050FD00E9ABBC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F5D1BCC196050FC00E9ABBC = {
+			isa = PBXGroup;
+			children = (
+				9F5D1BDA196050FC00E9ABBC /* GeoCoordinateConverter */,
+				9F5D1BEE196050FD00E9ABBC /* GeoCoordinateConverterTests */,
+				9F5D1BD7196050FC00E9ABBC /* Frameworks */,
+				9F5D1BD6196050FC00E9ABBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F5D1BD6196050FC00E9ABBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F5D1BD5196050FC00E9ABBC /* libGeoCoordinateConverter.a */,
+				9F5D1BE5196050FD00E9ABBC /* GeoCoordinateConverterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F5D1BD7196050FC00E9ABBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F5D1BD8196050FC00E9ABBC /* Foundation.framework */,
+				9F5D1BE6196050FD00E9ABBC /* XCTest.framework */,
+				9F5D1BE9196050FD00E9ABBC /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F5D1BDA196050FC00E9ABBC /* GeoCoordinateConverter */ = {
+			isa = PBXGroup;
+			children = (
+				9F5D1BDD196050FC00E9ABBC /* GeoCoordinateConverter.h */,
+				9F5D1BDF196050FC00E9ABBC /* GeoCoordinateConverter.m */,
+				9F5D1C02196142A200E9ABBC /* LatLon2MGRS.h */,
+				9F5D1C03196142A200E9ABBC /* LatLon2MGRS.m */,
+				9F5D1C04196142A200E9ABBC /* LatLon2UTM.h */,
+				9F5D1C05196142A200E9ABBC /* LatLon2UTM.m */,
+				9F5D1C06196142A200E9ABBC /* MGRS2LatLon.h */,
+				9F5D1C07196142A200E9ABBC /* MGRS2LatLon.m */,
+				9F5D1C08196142A200E9ABBC /* UTM2LatLon.h */,
+				9F5D1C09196142A200E9ABBC /* UTM2LatLon.m */,
+				9F5D1BDB196050FC00E9ABBC /* Supporting Files */,
+			);
+			path = GeoCoordinateConverter;
+			sourceTree = "<group>";
+		};
+		9F5D1BDB196050FC00E9ABBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F5D1BDC196050FC00E9ABBC /* GeoCoordinateConverter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F5D1BEE196050FD00E9ABBC /* GeoCoordinateConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F5D1BF4196050FD00E9ABBC /* GeoCoordinateConverterTests.m */,
+				9F5D1BEF196050FD00E9ABBC /* Supporting Files */,
+				9F5D1C1019614C5500E9ABBC /* TestData.h */,
+				9F5D1C1119614C5500E9ABBC /* TestData.m */,
+			);
+			path = GeoCoordinateConverterTests;
+			sourceTree = "<group>";
+		};
+		9F5D1BEF196050FD00E9ABBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F5D1BF0196050FD00E9ABBC /* GeoCoordinateConverterTests-Info.plist */,
+				9F5D1BF1196050FD00E9ABBC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F5D1BD4196050FC00E9ABBC /* GeoCoordinateConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F5D1BF8196050FD00E9ABBC /* Build configuration list for PBXNativeTarget "GeoCoordinateConverter" */;
+			buildPhases = (
+				9F5D1BD1196050FC00E9ABBC /* Sources */,
+				9F5D1BD2196050FC00E9ABBC /* Frameworks */,
+				9F5D1BD3196050FC00E9ABBC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoCoordinateConverter;
+			productName = GeoCoordinateConverter;
+			productReference = 9F5D1BD5196050FC00E9ABBC /* libGeoCoordinateConverter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9F5D1BE4196050FD00E9ABBC /* GeoCoordinateConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F5D1BFB196050FD00E9ABBC /* Build configuration list for PBXNativeTarget "GeoCoordinateConverterTests" */;
+			buildPhases = (
+				9F5D1BE1196050FD00E9ABBC /* Sources */,
+				9F5D1BE2196050FD00E9ABBC /* Frameworks */,
+				9F5D1BE3196050FD00E9ABBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F5D1BEC196050FD00E9ABBC /* PBXTargetDependency */,
+			);
+			name = GeoCoordinateConverterTests;
+			productName = GeoCoordinateConverterTests;
+			productReference = 9F5D1BE5196050FD00E9ABBC /* GeoCoordinateConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F5D1BCD196050FC00E9ABBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = VVSE;
+			};
+			buildConfigurationList = 9F5D1BD0196050FC00E9ABBC /* Build configuration list for PBXProject "GeoCoordinateConverter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9F5D1BCC196050FC00E9ABBC;
+			productRefGroup = 9F5D1BD6196050FC00E9ABBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F5D1BD4196050FC00E9ABBC /* GeoCoordinateConverter */,
+				9F5D1BE4196050FD00E9ABBC /* GeoCoordinateConverterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F5D1BE3196050FD00E9ABBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F5D1BF3196050FD00E9ABBC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F5D1BD1196050FC00E9ABBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F5D1BE0196050FC00E9ABBC /* GeoCoordinateConverter.m in Sources */,
+				9F5D1C0E196142A200E9ABBC /* MGRS2LatLon.m in Sources */,
+				9F5D1C0F196142A200E9ABBC /* UTM2LatLon.m in Sources */,
+				9F5D1C0C196142A200E9ABBC /* LatLon2MGRS.m in Sources */,
+				9F5D1C0D196142A200E9ABBC /* LatLon2UTM.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F5D1BE1196050FD00E9ABBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F5D1BF5196050FD00E9ABBC /* GeoCoordinateConverterTests.m in Sources */,
+				9F5D1C1219614C5500E9ABBC /* TestData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F5D1BEC196050FD00E9ABBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F5D1BD4196050FC00E9ABBC /* GeoCoordinateConverter */;
+			targetProxy = 9F5D1BEB196050FD00E9ABBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F5D1BF1196050FD00E9ABBC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F5D1BF2196050FD00E9ABBC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F5D1BF6196050FD00E9ABBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9F5D1BF7196050FD00E9ABBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F5D1BF9196050FD00E9ABBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/GeoCoordinateConverter.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoCoordinateConverter/GeoCoordinateConverter-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9F5D1BFA196050FD00E9ABBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/GeoCoordinateConverter.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoCoordinateConverter/GeoCoordinateConverter-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9F5D1BFC196050FD00E9ABBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoCoordinateConverter/GeoCoordinateConverter-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GeoCoordinateConverterTests/GeoCoordinateConverterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9F5D1BFD196050FD00E9ABBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoCoordinateConverter/GeoCoordinateConverter-Prefix.pch";
+				INFOPLIST_FILE = "GeoCoordinateConverterTests/GeoCoordinateConverterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F5D1BD0196050FC00E9ABBC /* Build configuration list for PBXProject "GeoCoordinateConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F5D1BF6196050FD00E9ABBC /* Debug */,
+				9F5D1BF7196050FD00E9ABBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F5D1BF8196050FD00E9ABBC /* Build configuration list for PBXNativeTarget "GeoCoordinateConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F5D1BF9196050FD00E9ABBC /* Debug */,
+				9F5D1BFA196050FD00E9ABBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F5D1BFB196050FD00E9ABBC /* Build configuration list for PBXNativeTarget "GeoCoordinateConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F5D1BFC196050FD00E9ABBC /* Debug */,
+				9F5D1BFD196050FD00E9ABBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F5D1BCD196050FC00E9ABBC /* Project object */;
+}
