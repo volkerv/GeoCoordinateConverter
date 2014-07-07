@@ -38,7 +38,7 @@
         esq = (1 - (b / a) * (b / a));
         e0sq = e * e / (1 - pow(e, 2));
 
-        digraphArrayN = [NSArray arrayWithObjects:@"A", @"B", @"C", @"D", @"E", @"F", @"G", @"H", @"J", @"K", @"L", @"M", @"N", @"P", @"Q", @"R", @"S", @"T", @"U", @"V", nil];
+        digraphArrayN = [NSArray arrayWithObjects:@"A", @"B", @"C", @"D", @"E", @"F", @"G", @"H", @"J", @"K", @"L", @"M", @"N", @"P", @"Q", @"R", @"S", @"T", @"U", @"V", @"W", @"X", @"Y", @"Z", nil];
     }
     
     return self;
