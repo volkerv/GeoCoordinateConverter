@@ -26,6 +26,7 @@
     // Put setup code here. This method is called before the invocation of each test method in the class.
 
     testCities = [[NSArray alloc] initWithObjects:
+
                   [[TestData alloc] initWithName:@"Berlin" Latiude:52.520007 Longitude:13.404954 UTM:@"33U 391776 5820073" MGRS:@"33UUU 91776 20073"],
                   [[TestData alloc] initWithName:@"London" Latiude:51.507351 Longitude:-0.127758 UTM:@"30U 699319 5710158" MGRS:@"30UXC 99319 10158"],
                   [[TestData alloc] initWithName:@"New York" Latiude:40.712784 Longitude:-74.005941 UTM:@"18T 583964 4507349" MGRS:@"18TWL 83964 07349"],
@@ -35,6 +36,7 @@
                   [[TestData alloc] initWithName:@"Johannesburg" Latiude:-26.204103 Longitude:28.047305 UTM:@"35J 604634 7101290" MGRS:@"35JPM 04634 01290"],
                   [[TestData alloc] initWithName:@"Kopenhagen" Latiude:55.676097 Longitude:12.568337 UTM:@"33U 347093 6172711" MGRS:@"33UUB 47093 72711"],
                   [[TestData alloc] initWithName:@"Oslo" Latiude:59.913869 Longitude:10.752245 UTM:@"32V 597983 6643116" MGRS:@"32VNM 97983 43116"],
+                  [[TestData alloc] initWithName:@"Indian Ocean" Latiude:-16.70462 Longitude:71.97212 UTM:@"42K 816973 8150756" MGRS:@"42KZG 16973 50756"],
                   nil];
 }
 

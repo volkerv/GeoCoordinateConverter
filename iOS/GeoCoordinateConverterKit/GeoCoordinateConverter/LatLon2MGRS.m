@@ -48,9 +48,9 @@
 -(NSString *) calcDigraph {
 
     int letter = floor((longitudeZoneValue - 1) * 8 + (eastingValue) / 100000.0);
-    letter = letter - 24 * floor(letter / 24.0) - 1;
-
-    NSString *digraph = (NSString *)[digraphArrayE objectAtIndex:letter];
+    int letterIdx = (( letter % 24 ) + 23 ) % 24;
+    
+    NSString *digraph = (NSString *)[digraphArrayE objectAtIndex:letterIdx];
     
     letter = floor(northingValue / 100000.0);
     if (longitudeZoneValue / 2.0 == floor(longitudeZoneValue / 2.0)) {
@@ -58,9 +58,9 @@
         letter = letter + 5;
     }
     
-    letter = letter - 20 * floor(letter / 20.0);
+    letterIdx = letter - 20 * floor(letter / 20.0);
     
-    return  [digraph stringByAppendingString:(NSString *)[digraphArrayN objectAtIndex:letter]];
+    return  [digraph stringByAppendingString:(NSString *)[digraphArrayN objectAtIndex:letterIdx]];
 }
 
 -(NSString *) formatIngValue:(double) value {
